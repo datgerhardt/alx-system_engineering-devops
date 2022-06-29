@@ -1,2 +1,2 @@
 #!/bin/bash
-id | head -c 3 |tr -d "uid"
+echo hello $(id | head -c 10 |tr -d "uid=0(" )
