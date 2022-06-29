@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hello $(id | head -c 10 |tr -d "uid=0(" )
+echo hello $USER
